@@ -1,48 +1,135 @@
-x<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Home page with keyword-rich content." />
-  <title>Art Vs AI</title>
+  <meta name="description" content="Home page about caring for budgies." />
+  <title>How to Care for New Owners</title>
   <style>
-    body { font-size: 18px; line-height: 1.6; color: #222; font-family: sans-serif; }
-    nav a { margin-right: 15px; }
+    body {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #222;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+
+    header {
+      background-color: #e0f7fa;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    .my-button {
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 12px 24px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      margin: 8px 4px;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+
+    .my-button:hover {
+      background-color: #0cb7e2;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    .cta {
+      background-color: #ffecb3;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .cta h2 {
+      margin-top: 0;
+    }
+
+    .gallery img {
+      width: 30%;
+      margin: 1%;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #eee;
+      margin-top: 40px;
+    }
   </style>
 </head>
 <body>
+
   <header>
-    <img src=""> <!-- Add my image later -->
+    <h1>Welcome to Budgie Care Central</h1>
+    <iframe width="560" height="315"
+     src="https://www.youtube.com/embed/0p03tEEH2kA?si=8OkV7TX1M_PV9d5v" 
+     title="Budgie Intro Video" 
+     frameborder="0" 
+     allowfullscreen>
+    </iframe>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="infopage.html">Info</a>
-      <a href="Reference.html">Social/Reference</a>
+      <a href="Index.html"><button class="my-button">Home</button></a>
+      <a href="About.html"><button class="my-button">About</button></a>
+      <a href="ContactUs.html"><button class="my-button">Contact Us</button></a>
     </nav>
   </header>
 
   <main>
-    <h1></h1>
-    <h2>add my h2 here</h2>
+    <div class="cta">
+      <h2>Thinking of a feathered friend?</h2>
+      <p>Budgies are cheerful, intelligent, and easy to care for. Discover why they make the perfect pet!</p>
+      <a href="About.html"><button class="my-button">Learn More</button></a>
+    </div>
+
+    <h2>Why Consider Budgies</h2>
     <ul>
-      <li>add info here</li>
-      <li>to be added</li>
-      <li>to be added</li>
+      <li>Small and manageable — ideal for first-time bird owners.</li>
+      <li>Friendly with playful personalities.</li>
+      <li>Easy to train and bond with humans.</li>
     </ul>
+    <div style="text-align: center;">
+      <img src="Budgies.jpg" alt="Budgies Socializing" width="300" height="200">
+    </div>
 
-    <h2>Images added here</h2>
-    <img src="" /> <!-- Add my image later -->
-    <img src="" /> <!-- Add my image later -->
-    <img src="" /> <!-- Add my image later -->
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="budgie1.jpg" alt="Budgie 1">
+      <img src="budgie2.jpg" alt="Budgie 2">
+      <img src="budgie3.jpg" alt="Budgie 3">
+    </div>
 
-    <h2>Quick run down on the state of art</h2>
-    <!-- Add a supporting video here for the checklist-->
+    <h2>Budgie Care Checklist</h2>
+    <p>Watch this quick guide to make sure your budgie stays happy and healthy:</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_CHECKLIST_VIDEO" title="Budgie Care Checklist" frameborder="0" allowfullscreen></iframe>
   </main>
 
   <footer>
-    <!-- add references and other info here -->
+    <p>&copy; 2025 Budgie Care For New Owners. All rights reserved.</p>
   </footer>
+
 </body>
 </html>
+
 
 
