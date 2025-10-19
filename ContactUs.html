@@ -47,6 +47,47 @@
       background-color: #fff;
     }
 
+    h2 {
+      color: #4CAF50;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    input, textarea {
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    textarea {
+      resize: vertical;
+    }
+
+    .submit-button {
+      margin-top: 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 12px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .submit-button:hover {
+      background-color: #0cb7e2;
+    }
+
     footer {
       text-align: center;
       padding: 20px;
@@ -67,7 +108,25 @@
   </header>
 
   <main>
-   <img src="under-construction.jpg" alt="Description of the image" width="400" height="300"> <!-- Under Construction, Add stuff later-->
+    <h2>We’d Love to Hear From You!</h2>
+    <p>Whether you’re thinking of adopting a budgie or already have one and need advice, we’re here to help. Reach out with any questions about feeding, housing, socializing, or general care.</p>
+
+    <form action="mailto:info@budgiecare.com" method="post" enctype="text/plain">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Your Message:</label>
+      <textarea id="message" name="message" rows="6" required></textarea>
+
+      <button type="submit" class="submit-button">Send Message</button>
+    </form>
+
+    <p style="margin-top: 30px;">
+      You can also reach us directly at <strong>info@budgiecare.com</strong> or follow us on social media for tips and updates.
+    </p>
   </main>
 
   <footer>
@@ -75,6 +134,5 @@
   </footer>
 
 </body>
-
-
+</html>
 
